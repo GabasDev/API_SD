@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import './App.css'; // Importa o arquivo CSS
 
-const API_URL = "https://3a2685fly0.execute-api.us-east-1.amazonaws.com/prod/GerenciarLivros"; // Substitua pela URL do seu API Gateway
+const API_URL = "https://www.apibooks.grupo-01.sd.ufersa.dev.br/prod/GerenciarLivros"; // Substitua pela URL do seu API Gateway
 
 function App() {
   const [livros, setLivros] = useState([]);
